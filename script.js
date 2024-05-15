@@ -1,6 +1,6 @@
 window.onload = function() {
     var fechaNacimiento = new Date('2001-04-12'); // Reemplaza YYYY-MM-DD con tu fecha de nacimiento
-    var intervalo = setInterval(actualizarEdad, 100);
+    var intervalo = setInterval(actualizarEdad, 65);
   
     function actualizarEdad() {
       var ahora = new Date();
