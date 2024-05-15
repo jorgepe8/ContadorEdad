@@ -5,6 +5,6 @@ window.onload = function() {
     function actualizarEdad() {
       var ahora = new Date();
       var edad = (ahora - fechaNacimiento) / (1000 * 60 * 60 * 24 * 365.25); // Calcula la edad en años con decimales
-      document.getElementById('edad').textContent = edad.toFixed(10); // Muestra la edad con 9 decimales
+      document.getElementById('edad').textContent = edad.toFixed(8); // Muestra la edad con 9 decimales
     }
   };
